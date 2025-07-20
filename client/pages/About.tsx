@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function About() {
   return (
-    <div className="relative min-h-screen overflow-hidden">
+    <div className="relative h-screen overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img 
@@ -28,7 +28,7 @@ export default function About() {
         </div>
         
         {/* Main Content - Scrollable container */}
-        <div className="flex-1 overflow-y-auto">
+        <div className="flex-1 overflow-y-auto custom-scrollbar">
           <div className="flex flex-col items-center px-4 md:px-6 lg:px-8 xl:px-16 pb-4">
             {/* Profile Photo */}
             <div className="mb-4 md:mb-6 mt-2 md:mt-4">
