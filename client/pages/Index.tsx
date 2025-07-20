@@ -118,8 +118,8 @@ export default function Index() {
             {/* projects */}
           <Link 
             to="/projects"
-            className={`absolute text-brand-yellow font-bold text-2xl sm:text-3xl md:text-4xl hover:opacity-90 transition-all duration-300 hover:scale-110 hover:drop-shadow-lg ${
-              shakingButton === 'projects' ? 'animate-shake' : ''
+            className={`absolute text-brand-yellow font-bold text-2xl sm:text-3xl md:text-4xl hover:opacity-90 transition-all duration-300 hover:scale-110 hover:drop-shadow-lg drop-shadow-lg ${
+              shakingButton === 'projects' ? 'animate-grow-shrink' : ''
             }`}
             style={{ 
               left: '5%',
@@ -132,8 +132,8 @@ export default function Index() {
           {/* Experience */}
           <Link 
             to="/experience"
-            className={`absolute text-brand-yellow font-bold text-2xl sm:text-3xl md:text-4xl hover:opacity-90 transition-all duration-300 hover:scale-110 hover:drop-shadow-lg ${
-              shakingButton === 'experience' ? 'animate-shake' : ''
+            className={`absolute text-brand-yellow font-bold text-2xl sm:text-3xl md:text-4xl hover:opacity-90 transition-all duration-300 hover:scale-110 hover:drop-shadow-lg drop-shadow-lg ${
+              shakingButton === 'experience' ? 'animate-grow-shrink' : ''
             }`}
             style={{ 
               left: '9%',
@@ -146,8 +146,8 @@ export default function Index() {
           {/* About */}
           <Link 
             to="/about"
-            className={`absolute text-brand-yellow font-bold text-2xl sm:text-3xl md:text-4xl hover:opacity-90 transition-all duration-300 hover:scale-110 hover:drop-shadow-lg ${
-              shakingButton === 'about' ? 'animate-shake' : ''
+            className={`absolute text-brand-yellow font-bold text-2xl sm:text-3xl md:text-4xl hover:opacity-90 transition-all duration-300 hover:scale-110 hover:drop-shadow-lg drop-shadow-lg ${
+              shakingButton === 'about' ? 'animate-grow-shrink' : ''
             }`}
             style={{ 
               right: '8%',
@@ -160,8 +160,8 @@ export default function Index() {
           {/* Adventures */}
           <Link 
             to="/adventures"
-            className={`absolute text-brand-yellow font-bold text-2xl sm:text-3xl md:text-4xl hover:opacity-90 transition-all duration-300 hover:scale-110 hover:drop-shadow-lg ${
-              shakingButton === 'adventures' ? 'animate-shake' : ''
+            className={`absolute text-brand-yellow font-bold text-2xl sm:text-3xl md:text-4xl hover:opacity-90 transition-all duration-300 hover:scale-110 hover:drop-shadow-lg drop-shadow-lg ${
+              shakingButton === 'adventures' ? 'animate-grow-shrink' : ''
             }`}
             style={{ 
               right: '15%',

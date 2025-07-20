@@ -50,8 +50,7 @@ export default function About() {
             <div className="max-w-4xl text-center space-y-3 md:space-y-4">
               {/* Descriptors */}
               <p className="text-black font-bold text-sm md:text-base lg:text-lg xl:text-xl leading-relaxed">
-                Problem Solver | Developer | Runner | Hiker<br />
-                Reader | Lifter | Guitar Player | Photographer
+                Problem Solver | Developer | Runner | Hiker | Occasional Trivia Winner
               </p>
               
               {/* Main Bio */}
