@@ -98,7 +98,7 @@ export default function Index() {
         
         {/* Navigation Links */}
         <div className="flex-1 px-4 md:px-8 lg:px-16 relative">
-          {/* Projects */}
+          {/* Projects
           <Link 
             to="/projects"
             className={`absolute text-brand-yellow font-bold text-2xl sm:text-3xl md:text-4xl hover:opacity-90 transition-all duration-300 hover:drop-shadow-lg ${
@@ -114,6 +114,16 @@ export default function Index() {
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.transform = 'translateY(-50%)';
+            }} */}
+            {/* projects */}
+          <Link 
+            to="/projects"
+            className={`absolute text-brand-yellow font-bold text-2xl sm:text-3xl md:text-4xl hover:opacity-90 transition-all duration-300 hover:scale-110 hover:drop-shadow-lg ${
+              shakingButton === 'projects' ? 'animate-shake' : ''
+            }`}
+            style={{ 
+              left: '5%',
+              bottom: '50%'
             }}
           >
             projects
