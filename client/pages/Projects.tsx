@@ -40,7 +40,7 @@ export default function Projects() {
               </p>
               <div className="flex gap-3">
                 <a 
-                  href="https://github.com/yourusername/spotifhai" 
+                  href="https://github.com/sutulas/Spotifhai" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-3 py-2 bg-black text-white text-sm font-bold rounded hover:bg-gray-800 transition-all duration-300 hover:scale-105"
