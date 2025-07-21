@@ -53,7 +53,8 @@ export default function Index() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img 
-          src="https://api.builder.io/api/v1/image/assets/TEMP/aa52f5eb5dd3c2a8bb27077d0322e1b85a8b529a?width=3072"
+          src="/DSC_0267.JPG"
+          // src="https://api.builder.io/api/v1/image/assets/TEMP/aa52f5eb5dd3c2a8bb27077d0322e1b85a8b529a?width=3072"
           alt="Mountain landscape with person lying in field"
           className="w-full h-full object-cover object-bottom"
         />
