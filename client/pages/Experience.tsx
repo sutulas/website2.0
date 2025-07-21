@@ -29,7 +29,7 @@ export default function Experience() {
         
         {/* Experience Grid - Scrollable container */}
         <div className="flex-1 overflow-y-auto custom-scrollbar">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6 max-w-7xl mx-auto pb-4">
+          <div className="max-w-4xl mx-auto pb-4 space-y-4 md:space-y-6">
             {/* Terra Dotta */}
             <div className="bg-gray-200 bg-opacity-75 rounded-lg p-4 md:p-6 backdrop-blur-sm">
               <h3 className="text-black font-bold text-base md:text-lg lg:text-xl xl:text-2xl mb-2">
@@ -44,7 +44,6 @@ export default function Experience() {
                 <p>• Delivered full-stack features with Angular, Java, and TypeScript, integrating AI systems seamlessly into production environments.</p>
               </div>
             </div>
-            
             {/* Longbeard */}
             <div className="bg-gray-200 bg-opacity-75 rounded-lg p-4 md:p-6 backdrop-blur-sm">
               <h3 className="text-black font-bold text-base md:text-lg lg:text-xl xl:text-2xl mb-2">
@@ -58,7 +57,33 @@ export default function Experience() {
                 <p>• Built and deployed search improvements in TypeScript using Supabase for both vector similarity and full-text indexing.</p>
               </div>
             </div>
-            
+            {/* Decodables */}
+            <div className="bg-gray-200 bg-opacity-75 rounded-lg p-4 md:p-6 backdrop-blur-sm">
+              <h3 className="text-black font-bold text-base md:text-lg lg:text-xl xl:text-2xl mb-2">
+                Founding Engineer @ Decodables
+              </h3>
+              <p className="text-black text-sm md:text-base lg:text-lg mb-3 md:mb-4">
+                October 2024 - June 2025
+              </p>
+              <div className="text-black text-sm md:text-base lg:text-lg leading-relaxed space-y-2">
+                <p>• Collaborated with university peers and alumni to develop a scalable, user-friendly website offering personalized reading experiences for young, low-level readers.</p>
+                <p>• Spearheaded the creation of a custom prompt-engineering pipeline for integration with multiple large language models.</p>
+                <p>• Designed and implemented an interactive front-end interface and a robust back-end API architecture using FastAPI, React, Node.js, and Google Firebase.</p>
+              </div>
+            </div>
+            {/* AI */}
+            <div className="bg-gray-200 bg-opacity-75 rounded-lg p-4 md:p-6 backdrop-blur-sm">
+              <h3 className="text-black font-bold text-base md:text-lg lg:text-xl xl:text-2xl mb-2">
+                President/Founder @ Boston College AI Safety Society
+              </h3>
+              <p className="text-black text-sm md:text-base lg:text-lg mb-3 md:mb-4">
+                August 2024 - May 2025
+              </p>
+              <div className="text-black text-sm md:text-base lg:text-lg leading-relaxed space-y-2">
+                <p>• Established and led a new student organization dedicated to exploring AI alignment through comprehensive discussions and research on AI development, policy, and regulation.</p>
+                <p>• Designed and implemented a custom curriculum for weekly seminars, covering topics ranging from high-level AI overviews to in-depth analysis of AI models, in collaboration with parallel organizations at Harvard and MIT.</p>
+              </div>
+            </div>
             {/* ZoomInfo */}
             <div className="bg-gray-200 bg-opacity-75 rounded-lg p-4 md:p-6 backdrop-blur-sm">
               <h3 className="text-black font-bold text-base md:text-lg lg:text-xl xl:text-2xl mb-2">
@@ -72,7 +97,6 @@ export default function Experience() {
                 <p>• Developed and recommended an innovative solution that reduced query latency by up to 70%, slated for production implementation.</p>
               </div>
             </div>
-            
             {/* GBCS Group */}
             <div className="bg-gray-200 bg-opacity-75 rounded-lg p-4 md:p-6 backdrop-blur-sm">
               <h3 className="text-black font-bold text-base md:text-lg lg:text-xl xl:text-2xl mb-2">

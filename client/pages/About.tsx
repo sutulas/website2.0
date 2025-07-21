@@ -118,7 +118,7 @@ export default function About() {
                 {/* Resume Button */}
                 <div className="flex justify-center">
                   <a 
-                    href="/resume.pdf" 
+                    href="/Seamus_Sutula_Resume.pdf" 
                     download="Seamus_Sutula_Resume.pdf"
                     className="inline-flex items-center px-6 py-3 bg-black text-white font-bold text-lg md:text-xl rounded-lg hover:bg-gray-800 transition-all duration-300 hover:scale-105 hover:shadow-lg"
                   >
