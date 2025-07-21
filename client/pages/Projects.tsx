@@ -36,7 +36,7 @@ export default function Projects() {
                 SpotifHAI
               </h3>
               <p className="text-black text-sm md:text-base lg:text-lg leading-relaxed mb-3 md:mb-4">
-                Created for a Human AI Interaction course (HAI) SpotifHAI is an intelligent Spotify analytics and playlist assistant powered by OpenAI and Spotify APIS. Featuring a custom agent pipeline, robust backend API architecture, and an interactive and fun frontend interface, this project leverages <span className="font-bold">python, FastAPI, React, and Node.js.</span>
+                Created for a Human AI Interaction (HAI) course, SpotifHAI is an intelligent Spotify analytics and playlist assistant powered by OpenAI and Spotify APIs. Featuring a custom agent pipeline, robust backend API architecture, and an interactive and fun frontend interface, this project leverages <span className="font-bold">python, FastAPI, React, and Node.js.</span>
               </p>
               <div className="flex gap-3">
                 <a 
