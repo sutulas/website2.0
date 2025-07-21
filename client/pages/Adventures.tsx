@@ -32,10 +32,6 @@ export default function Adventures() {
           <h2 className="text-black font-bold text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-6 md:mb-8">
             Coming Soon...
           </h2>
-          <p className="text-black text-lg md:text-xl lg:text-2xl xl:text-3xl max-w-4xl leading-relaxed">
-            More adventure stories and outdoor experiences to be shared soon. 
-            Stay tuned for updates on hiking, skiing, and mountain adventures!
-          </p>
         </div>
         
         {/* Footer credit */}
